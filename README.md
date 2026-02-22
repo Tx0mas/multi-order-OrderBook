@@ -8,5 +8,5 @@ La idea basica del sistema es organizar las ofertas de compra y venta por precio
 # Construccion
 
 ```
-g++ -g orderbook.cpp newOrden.cpp main.cpp -o orderBook
+g++ -std=c++17 orderbook.cpp newOrden.cpp main.cpp -o orderBook
 ```
